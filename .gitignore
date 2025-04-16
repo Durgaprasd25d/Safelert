@@ -1,5 +1,11 @@
-# Node.js dependencies
+# Ignore root node_modules
 /node_modules
+
+# Ignore node_modules in any subdirectory, e.g., server/node_modules
+**/node_modules
+
+# Keep the server directory
+!server/
 
 # Next.js build output
 /.next/
@@ -49,8 +55,3 @@ firebase-debug.log
 
 # Optional: cloudinary temp files (if any)
 /cloudinary/
-# Ignore server directory if it's a build or temporary dir
-/server
-
-# Node modules (correct spelling)
-/node_modules

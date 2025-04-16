@@ -1,0 +1,56 @@
+# Node.js dependencies
+/node_modules
+
+# Next.js build output
+/.next/
+/out/
+/build
+
+# TypeScript build info
+*.tsbuildinfo
+next-env.d.ts
+
+# Testing
+/coverage
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Local env files
+.env
+.env.*
+!.env.example
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+
+# Deployment
+.vercel
+.netlify
+firebase.json
+firebase-debug.log
+
+# Misc
+*.local
+*.log
+*.bak
+
+# Optional: ignore static exports if not used
+/export
+
+# Optional: cloudinary temp files (if any)
+/cloudinary/
+# Ignore server directory if it's a build or temporary dir
+/server
+
+# Node modules (correct spelling)
+/node_modules
